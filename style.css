@@ -1,0 +1,12 @@
+body {
+    background: #ffb77c;
+}
+
+.container {
+    width: 60%;
+    height: 60vh;
+    background-color: #fff;
+    border: 6px solid #2a2a2a;
+    margin: 18vh auto;
+    box-shadow: 0px 0px 20px 0px #2a2a2a;
+}

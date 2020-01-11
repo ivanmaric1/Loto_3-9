@@ -48,7 +48,6 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
-    
 }
 
 #odabir {
@@ -63,7 +62,6 @@ body {
 
 #izvlačenje {
     flex: 2;
-    
 }
 
 #izvuci {
@@ -71,11 +69,6 @@ body {
     font-size: 2rem;
     display: block;
     margin: 0 auto;
-}
-
-#Izvuci:hover {
-    background-color: red;
-    color: white;
 }
 
 #izvještaj {

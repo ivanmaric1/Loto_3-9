@@ -1,5 +1,5 @@
 #naslov {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .container {
@@ -17,8 +17,8 @@
 
 #prviRed input, #drugiRed input, #trećiRed input{
     margin: 1rem 1.5rem 1rem 1rem;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
 } 
 
 #butonjara, #reset {

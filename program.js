@@ -49,6 +49,7 @@ document.getElementById('izvuci').addEventListener('click', function(e) {
     document.getElementById('kuglice1').innerHTML = ''
     document.getElementById('kuglice2').innerHTML = ''
     document.getElementById('kuglice3').innerHTML = ''
+    document.getElementById('izvještaj').innerHTML = ''
     function randomNum(){
         return Math.ceil(Math.random()*9)
     }

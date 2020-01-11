@@ -13,50 +13,55 @@
   <h1 id='naslov'>Loto 3/9</h1>
   <div class="container">
     <div id='listić'>
-      <h3>Odaberite brojeve</h3>
-      <div id='prviRed'>
-        <label for="jedan">1
-          <input type="checkbox" id='jedan'>
-        </label>
-        <label for="dva">2
-          <input type="checkbox" id='dva'>
-        </label>
-        <label for="tri">3
-          <input type="checkbox" id='tri'>
-        </label>
-      </div>
-      <div id='drugiRed'>
-        <label for="četiri">4
-          <input type="checkbox" id='četiri'>
-        </label>
-        <label for="pet">5
-          <input type="checkbox" id='pet'>
-        </label>
-        <label for="šest">6
-          <input type="checkbox" id='šest'>
-        </label>
-      </div>
-      <div id='trećiRed'>
-        <label for="sedam">7
-          <input type="checkbox" id='sedam'>
-        </label>
-        <label for="osam">8
-          <input type="checkbox" id='osam'>
-        </label>
-        <label for="devet">9
-          <input type="checkbox" id='devet'>
-        </label>
-      </div>
-    </div>
+      <h3>Odaberite tri broja</h3>
+      <form id='forma'>
+          <div id='prviRed'>
+            <label for="jedan">1
+              <input type="checkbox" id='jedan'>
+            </label>
+            <label for="dva">2
+              <input type="checkbox" id='dva'>
+            </label>
+            <label for="tri">3
+              <input type="checkbox" id='tri'>
+            </label>
+          </div>
+          <div id='drugiRed'>
+            <label for="četiri">4
+              <input type="checkbox" id='četiri'>
+            </label>
+            <label for="pet">5
+              <input type="checkbox" id='pet'>
+            </label>
+            <label for="šest">6
+              <input type="checkbox" id='šest'>
+            </label>
+          </div>
+          <div id='trećiRed'>
+            <label for="sedam">7
+              <input type="checkbox" id='sedam'>
+            </label>
+            <label for="osam">8
+              <input type="checkbox" id='osam'>
+            </label>
+            <label for="devet">9
+              <input type="checkbox" id='devet'>
+            </label>
+          </div>
+          <button type="submit" id='butonjara'>Odaberi</button>
+          <button type="reset" id='butonjara'>Resetiraj</button>
+        </div>
+      </form>
     <div id='funkcionalnost'>
         <div id='odabir'>
-
+          <h1>Odabrali ste : </h1>
+          <div id='odabraniBrojevi'></div>
         </div>
         <div id='izvlačenje'>
-
+          <button id='Izvuci'>Izvlačenje</button>
         </div>
         <div id='izvještaj'>
-
+          <h1>Ostvarili ste</h1>
         </div>
     </div>      
   </div>

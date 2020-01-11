@@ -33,7 +33,7 @@ body {
     height: 30px;
 } 
 
-#butonjara {
+#butonjara, #reset {
     width: 30%;
     font-size: 2rem;
     margin-top: 2rem;
@@ -57,12 +57,16 @@ body {
     justify-content: center;
 }
 
+#odabraniBrojevi {
+    margin-left: 2rem;
+}
+
 #izvlačenje {
     flex: 2;
     
 }
 
-#Izvuci {
+#izvuci {
     width: 30%;
     font-size: 2rem;
     display: block;
@@ -77,3 +81,14 @@ body {
 #izvještaj {
     flex: 1;
     text-align: center;
+}
+
+#kuglice {
+    margin-top: 3rem;
+    display: flex;
+}
+
+#kuglice1, #kuglice2, #kuglice3 {
+    flex: 1;
+    text-align: center;
+}

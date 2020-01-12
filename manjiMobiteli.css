@@ -1,0 +1,52 @@
+#naslov {
+    font-size: 1.5rem;
+}
+
+.container {
+    width: 80%;
+    height: 80vh;
+    border: 3px solid #2a2a2a;
+    padding: 0.5rem;
+    flex-direction: column;
+}
+
+#listić {
+    font-size: 1.2rem;
+}
+
+#prviRed input, #drugiRed input, #trećiRed input{
+    margin: 0.5rem 1rem 1rem 0.5rem;
+    width: 20px;
+    height: 20px;
+} 
+
+#butonjara, #reset {
+    width: 35%;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+#odabir {
+    font-size: 0.6rem;
+}
+
+#odabraniBrojevi {
+    margin: 0;
+}
+
+#izvuci {
+    width: 35%;
+    font-size: 1rem;
+}
+
+#kuglice {
+    margin-top: 0.2rem;
+}
+
+#kuglice1, #kuglice2, #kuglice3 {
+    font-size: 0.6rem;
+}
+
+#izvještaj {
+    font-size: 0.6rem;
+} 
